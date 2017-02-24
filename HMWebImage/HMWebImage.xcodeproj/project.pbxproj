@@ -13,6 +13,7 @@
 		184ABEAD1E6027DA0084A9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ABEAB1E6027DA0084A9BF /* Main.storyboard */; };
 		184ABEAF1E6027DA0084A9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184ABEAE1E6027DA0084A9BF /* Assets.xcassets */; };
 		184ABEB21E6027DA0084A9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ABEB01E6027DA0084A9BF /* LaunchScreen.storyboard */; };
+		184ABEBC1E602DF60084A9BF /* HMWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ABEBB1E602DF60084A9BF /* HMWebImageDownloaderOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		184ABEAE1E6027DA0084A9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184ABEB11E6027DA0084A9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184ABEB31E6027DA0084A9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184ABEBA1E602DF60084A9BF /* HMWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		184ABEBB1E602DF60084A9BF /* HMWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		184ABEA11E6027DA0084A9BF /* HMWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				184ABEB91E602DB60084A9BF /* HMWebImage */,
 				184ABEA51E6027DA0084A9BF /* AppDelegate.h */,
 				184ABEA61E6027DA0084A9BF /* AppDelegate.m */,
 				184ABEA81E6027DA0084A9BF /* ViewController.h */,
@@ -77,6 +81,15 @@
 				184ABEA31E6027DA0084A9BF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184ABEB91E602DB60084A9BF /* HMWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				184ABEBA1E602DF60084A9BF /* HMWebImageDownloaderOperation.h */,
+				184ABEBB1E602DF60084A9BF /* HMWebImageDownloaderOperation.m */,
+			);
+			path = HMWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184ABEBC1E602DF60084A9BF /* HMWebImageDownloaderOperation.m in Sources */,
 				184ABEAA1E6027DA0084A9BF /* ViewController.m in Sources */,
 				184ABEA71E6027DA0084A9BF /* AppDelegate.m in Sources */,
 				184ABEA41E6027DA0084A9BF /* main.m in Sources */,
